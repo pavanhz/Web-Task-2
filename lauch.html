@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" href="lauch.css">
+</head>
+
+<body>
+    <!-- link your javascript file here-->
+
+
+
+    <section id="banner">
+        <img src="./logos/main-logo.png" class="logos">
+        <div class="banner-text">
+            <h1>Future of India</h1>
+            <p>Buying your Dream Car check Now?</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find out</a>
+                <a href="#"><span></span>Learn More</a>
+
+            </div>
+        </div>
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">login</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">servisec</a></li>
+                <li><a href="#">settings</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menu-btn">
+        <img src="./logos/nav-bar.webp" id="menu">
+    </div>
+    <script>
+        var Menubtn = document.getElementById("menu-btn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+        sidenav.style.right == "-250px"
+
+        Menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0"
+                menu.src = "./logos/close.png"
+            } else {
+                sidenav.style.right = "-250px"
+                menu.src = "./logos/nav-bar.webp"
+            }
+        }
+    </script>
+<!-- Features-->
+    <section id="feature">
+        <div class="title-text">
+            <p>feature</p>
+            <h1>Why Buy a BMW?</h1>
+        </div>
+
+        <div class="feature-box">
+            <div class="feature">
+                <h1>Superior Engineering</h1>
+                <div class="feature-desc">
+                    <div class="feature-icon">
+                        <i class="fa-brands fa-stackpath"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>BMW's reputation for superior engineering isn't just industry hype-it's a reality that has been forged through decades of automotive excellence.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="feature">
+                    <h1>Luxurious Comfort</h1>
+                    <div class="feature-desc">
+                        <div class="feature-icon">
+                            <i class="fa-brands fa-stackpath"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>One of the distinguishing factors of a BMW is the luxurious comfort it offers. From the interior design to the comfort features, every detail is meticulously crafted to provide an unrivaled driving experience.</p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature">
+                        <h1>Environmental Consciousness</h1>
+                        <div class="feature-desc">
+                            <div class="feature-icon">
+                                <i class="fa-brands fa-stackpath"></i>
+                            </div>
+                            <div class="feature-text">
+                                <p>In today's world, environmental consciousness is more than just a buzzword-it's a commitment to a sustainable future. BMW is a brand that takes this commitment to heart, evidenced by its strides in developing electric and hybrid models.</p>
+                            </div>
+        
+                        </div>
+                    </div>
+            <div class="feature-img">
+                <img src="./Images/side-img.jpg" alt="">
+            </div>
+
+        </div>
+        </section>
+
+        <!-- Service-->
+        <section id="service">
+            <div class="title-text">
+                <P>SERVICES</P>
+                <h1>We provided Better</h1>
+            </div>
+            <div class="service-box">
+                <div class="signle-service"><img src="./Images/RTO-servisec.webp"><div class="overlay"></div>
+                <div class="service-desc">
+                    <h1>RTO Records</h1>
+                    <hr>
+                    <p>
+                        With Service Inclusive, you have complete peace of mind for a period of your choice. During this time, you don’t
+                        have to waste a moment
+                        thinking about the cost of maintenance or wear and tear.
+                        A single attractive upfront payment covers an extensive
+                        range of services performed by BMW Service (Original BMW
+                        Parts included).
+                    </p>
+                </div>
+                </div>
+                <div class="signle-service"><img src="./Images/challan-check.webp"><div class="overlay"></div>
+                <div class="service-desc">
+                    <h1>Challan Cheacks</h1>
+                    <hr>
+                    <p>
+                        The extended warranty program for your BMW is brought to you by BMW
+                        India Financial Services and Bajaj Allianz General Insurance Company.
+                        The purchase of Service Inclusive and/or Extended Warranty packages is optional and
+                        solely at the discretion of the customer. Select a package or combination that best
+                        aligns with your requirements.
+                    </p>
+                </div>
+                </div>
+
+                <div class="signle-service"> <img src="./Images/Connected-Cars.webp"><div class="overlay"></div>
+                <div class="service-desc">
+                    <h1>Connecting Cars</h1>
+                    <hr>
+                    <p>
+                        Your car knows best when its next service is due. Its
+                        on-board maintenance system, Condition Based Service (CBS)
+                        , determines your car’s individual service requirements
+                        and displays this information in the cockpit – giving you
+                        ample time to arrange an appointment that best fits your
+                        schedule.
+                    </p>
+                </div>
+                </div>
+                <div class="signle-service"> <img src="./Images//Bosch-service.webp"><div class="overlay"></div>
+                <div class="service-desc">
+                    <h1>Bosch-service</h1>
+                    <hr>
+                    <p>
+                        With Service Inclusive, you have complete peace of mind for a period of your choice. During this time, you don’t
+                        have to waste a moment
+                        thinking about the cost of maintenance or wear and tear.
+                        A single attractive upfront payment covers an extensive
+                        range of services performed by BMW Service (Original BMW
+                        Parts included).
+                    </p>
+                </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Testimonial-->
+        <section id="testimonial">
+            <div class="title-text">
+                <P>Testimonial</P>
+                <h1>What Client Says</h1>
+            </div>
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="./Images/profile-icon.webp" alt="">
+                        <div class="user-info">
+                            <h4>pavan deshmukh</h4>
+                            <small>@pavan</small>
+                        </div>
+                    </div>
+                    <p> I have been wanting to buy an electric car for a long time. A few months ago I bought a BMW i7. The interior
+                         of this car is so Impressive and tech based that it feels like you are stepping into the future. The driving
+                          experience with this car is quiet and the acceleration is exhilarating. Finding convenient charging stations 
+                          for me on long trips sometimes becomes a puzzle. The i7 comes across as the symbol of electric luxury which 
+                          beautifully combines performance or comfort and eco friendliness. It truly feels like driving the future.
+                    </p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="./Images/profile-icon.webp" alt="">
+                        <div class="user-info">
+                            <h4>Piyush Ramavath</h4>
+                            <small>@P_ramavath</small>
+                        </div>
+                    </div>
+                    <p>
+                        The i7 model's potential to provide long-lasting opulence and be an electrical goddess excites me. One of my
+                         favourite electric cars, this one has such great features that manage to be both timeless and technologically 
+                         advanced. Strange as it may seem, the i7 exemplifies BMW's mission to manufacture electric buses that set new 
+                         standards for road-savvyness. This poster is sure to be remembered for its slice-byte technology, user-friendly
+                          design, and eco-friendly driving experience that is both practical and cosy. My favourite part about this 
+                          concept is the flexibility it provides to anyone in possession of a stunning water feature—one that marries
+                           the goddess of electricity with everlasting riches.
+                    </p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="./Images/profile-icon.webp" alt="">
+                        <div class="user-info">
+                            <h4>Virat kohali</h4>
+                            <small>@vk_kohali</small>
+                        </div>
+                    </div>
+                    <p>
+                        With its revolutionary Design and powerful technology, the BMW i7 redefines electric luxury as you punch
+                         into the now of luxury motorcars. With its electric machine, ample cabin, and Modern features, the i7 provides 
+                         a sustainable andeco-friendly option for coincidental Safety. When on lengthy road peregrinations and driving 
+                         through metropolitan Highways, the i7 offers an instigative and effective ride that's also environmentally
+                          sustainable. Every point of the BMW i7, from its Modern infotainment system to its futuristic appearance,
+                           is intended to ameliorate my driving experience and reshape the geography of electric luxury.
+                    </p>
+                </div>
+               
+            </div>
+        </section>
+        <!---- Footer--->
+ <section id="footer">
+    <img src="./Images/main-img.webp" alt="" class="footer-img">
+    <div class="title-text">
+        <P>CONTACT</P>
+        <h1>Visit Us Today</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Houres</h1>
+            <p> Monday To Friday - 9 to 10</p>
+            <p> Saturday - 8 to 11</p>
+
+        </div>
+        <div class="footer-right">
+            <h1>Get in Touch</h1>
+            <p><i class="fa fa-car"></i>
+                india@bmw.org.in</p>
+            <p>Atharv Chambers, Survey No 28, Mumbai-Pune Road,
+                 Near Shoppers Stop, Wakde Wadi, Pune, Maharashtra 411005 
+                 · ~1.6 km</p>
+            
+        </div>
+    </div>
+    <div class="social-links">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+       </div>
+ </section>
+</body>
+
+</html>
